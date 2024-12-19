@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+  <div class="form_wrapper">
+    <div class="form_container">
+      <div class="title_container">
+        <h2>Responsive Registration Form</h2>
+      </div>
+      <div class="row clearfix">
+        <div class="">
+          <form>
+            <div class="input_field"> <span><i class='bx bxs-envelope'></i></span>
+              <input type="email" name="email" placeholder="Email" autocomplete="off" required />
+            </div>
+            <div class="input_field"> <span><i class='bx bx-book' undefined ></i></span>
+              <input type="id" name="email" placeholder="Pasport ID" required />
+            </div>
+            <div class="input_field"> <span><i class='bx bx-key'></i></span>
+              <input type="password" name="password" placeholder="Password" autocomplete="off" required />
+            </div>
+            <div class="input_field"> <span><i class='bx bx-key'></i></span>
+              <input type="password" name="password" placeholder="Re-type Password" required />
+            </div>
+            <div class="row clearfix">
+              <div class="col_half">
+                <div class="input_field"> <span><i class='bx bxs-user'></i></span>
+                  <input type="text" name="name" placeholder="First Name" />
+                </div>
+              </div>
+              <div class="col_half">
+                <div class="input_field"> <span><i class='bx bxs-user-rectangle'></i></span>
+                  <input type="text" name="name" placeholder="Last Name" required />
+                </div>
+              </div>
+            </div>
+                <div class="input_field radio_option">
+                <p class="choosing">Choose your gender:</p>
+                <input type="radio" name="radiogroup1" id="rd1">
+                <label for="rd1">Male</label>
+                <input type="radio" name="radiogroup1" id="rd2">
+                <label for="rd2">Female</label>
+                </div>
+            <a href="user_page.html" class="btn">Registrate</a>
+            <button class="login google"><i class='bx bxl-google' undefined ></i> Or Log in with Google</button>
+            <button class="login"><i class='bx bxl-facebook-circle' ></i> Or Log in with Facebook</button>
+            <p class="link">Already have an account? <a href="login.html" class="lnk">Log in</a></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+<p class="credit">Developed by <a href="https://github.com/marupovdoston" target="_blank">MD_Byte</a></p>
+
+
+<script src="script.js"></script>
+</body>
+</html>

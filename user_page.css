@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.name_surname{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.user_image{
+    width: 700px;
+    height: 600px;
+    border-radius: 25px;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.card {
+    position: relative;
+    width: 700px;
+    height: 640px;
+    border-radius: 14px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+
+}
+
+.title{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.text{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #4d4d4d;
+}
+
+.qr-code{
+    width: 150px;
+    height: 160px;
+}
+
+.right_side{
+    width: 50%;
+}
+.left_side{
+    width: 50%;
+    margin-left: 140px;
+}
+
+@media (min-width: 320px) {
+
+    .left_side{
+        margin-left: 0;
+    }
+    .user_image{
+        width: 320px;
+        height: 400px;
+        box-shadow: none;
+    }
+    .card{
+        box-shadow: none;
+        width: 320px;
+        height: 600px;
+        z-index: 999;
+
+    }
+    .name_surname{
+        font-size: 18px;
+        margin-bottom: 10px;
+        width: 320px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .container{
+        display: block;
+        background:none
+    }
+    .title{
+        font-size: 18px;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .qrcode_tex{
+        width: 220px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .left_side{
+        margin-left: 0;
+    }
+    .user_image{
+        width: 590px;
+        height: 500px;
+        box-shadow: none;
+        margin-left: 23%;
+    }
+    .card{
+        box-shadow: none;
+        width: 768px;
+        height: 650px;
+        z-index: 999;
+
+    }
+    .name_surname{
+        font-size: 28px;
+        margin-bottom: 10px;
+        width: 768px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .container{
+        display: block;
+        background:none
+    }
+    .title{
+        font-size: 28px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    .qrcode_tex{
+        width: 200px;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .left_side{
+        margin-left: 0;
+    }
+    .user_image{
+        width: 800px;
+        height: 600px;
+        box-shadow: none;
+        margin-left: 23%;
+    }
+    .card{
+        box-shadow: none;
+        width: 1024px;
+        height: 650px;
+        z-index: 999;
+
+    }
+    .name_surname{
+        font-size: 28px;
+        margin-bottom: 10px;
+        width: 1024px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .container{
+        display: block;
+        background:none
+    }
+    .title{
+        font-size: 28px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    .qrcode_tex{
+        width: 200px;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .left_side{
+        margin-left: 0;
+    }
+    .user_image{
+        width: 1024px;
+        height: 700px;
+        box-shadow: none;
+        margin-left: 30%;
+    }
+    .card{
+        box-shadow: none;
+        width: 1440px;
+        height: 700px;
+        z-index: 999;
+
+    }
+    .name_surname{
+        font-size: 34px;
+        margin-bottom: 10px;
+        width: 1440px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .container{
+        display: block;
+        background:none
+    }
+    .title{
+        font-size: 32px;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .qrcode_tex{
+        width: 200px;
+        text-align: center;
+    }
+
+ }
+
+@media (min-width: 1800px) {
+    .container{
+        width: 100%;
+        height: 100vh;
+        background: #ddd;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .name_surname{
+        width: 94%;
+        font-size: 30px;
+        margin-bottom: 30px;
+        text-align: end;
+    }
+    .user_image{
+        width: 700px;
+        height: 600px;
+        border-radius: 25px;
+        box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    }
+    
+    .card {
+        position: relative;
+        width: 700px;
+        height: 640px;
+        border-radius: 14px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    
+    }
+    
+    .title{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    
+    .text{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        color: #4d4d4d;
+    }
+    
+    .qr-code{
+        width: 150px;
+        height: 160px;
+    }
+    .left_side{
+        margin-right: 50px;
+    }
+    .right_side{
+        margin-top: 40px;
+    }
+}
